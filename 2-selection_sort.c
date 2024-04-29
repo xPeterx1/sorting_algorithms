@@ -19,7 +19,7 @@ for (i = 0; i < size; i++)
 	min = *(array + i);
 	for (j = i + 1; j < size; j++)
 	{
-		if (*(array + j) > min)
+		if (*(array + j) < min)
 		{
 			index = j;
 			min =  *(array + j);
