@@ -18,4 +18,10 @@ void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void insertion_sort_list(listint_t **list);
+listint_t *get_index_address(listint_t *head, unsigned int index);
+size_t dlistint_len(const listint_t *h);
+void insertion_sort_list(listint_t **list);
+void swap(listint_t *x, listint_t *y);
 #endif
